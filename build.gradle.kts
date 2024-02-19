@@ -34,10 +34,15 @@ subprojects {
         implementation("org.jetbrains.kotlin:kotlin-reflect")
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-        testImplementation("org.springframework.boot:spring-boot-starter-test")
-        testImplementation("com.ninja-squad:springmockk:${property("springMockkVersion")}")
         annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
         kapt("org.springframework.boot:spring-boot-configuration-processor")
+
+
+        testImplementation("org.springframework.boot:spring-boot-starter-test")
+        testImplementation("com.ninja-squad:springmockk:${property("springMockkVersion")}")
+        testImplementation("io.kotest:kotest-runner-junit5")
+        testImplementation("io.kotest:kotest-assertions-core")
+        testImplementation("io.mockk:mockk:1.12.0")
 
         // fixture monkey
         testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter:0.6.3")
