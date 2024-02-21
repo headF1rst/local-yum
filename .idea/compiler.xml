@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.2.1/9d6ac9a2fa98598d1a38e9f06d6f0aab250cae2f/spring-boot-configuration-processor-3.2.1.jar" />
+        </processorPath>
+        <module name="weave-server.infrastructure.redis.main" />
+        <module name="weave-server.application.main" />
+        <module name="weave-server.infrastructure.client.main" />
+        <module name="weave-server.infrastructure.mail.main" />
+        <module name="weave-server.bootstrap.main" />
+        <module name="weave-server.support.lock.main" />
+        <module name="weave-server.support.security.main" />
+        <module name="weave-server.infrastructure.main" />
+        <module name="weave-server.domain.main" />
+        <module name="weave-server.support.common.main" />
+        <module name="weave-server.infrastructure.persistence.main" />
+        <module name="weave-server.support.main" />
+        <module name="weave-server.bootstrap.http.main" />
+        <module name="weave-server.support.jacoco.main" />
+        <module name="weave-server.support.logger.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
