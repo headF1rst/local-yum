@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d6b83ad-c7ae-414b-a367-4642fdd51cc1" name="Changes" comment="feat: fixture monkey 설정">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/application/port/in/RestaurantUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/application/port/out/RestaurantPort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/application/service/RestaurantAppender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/application/service/RestaurantService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/domain/Address.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/domain/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/restaurant/domain/Restaurant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/port/in/UserUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local-yum-api/src/main/kotlin/com/sanha/localyum/controller/RestaurantController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local-yum-api/src/main/kotlin/com/sanha/localyum/controller/RestaurantRegisterRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local-yum-api/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/RestaurantAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/RestaurantEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/RestaurantJpaRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/RestaurantMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/UserReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/service/UserReader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/port/UserPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/port/out/UserPort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/service/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/application/service/UserService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/kotlin/com/sanha/localyum/user/domain/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-yum-api/src/main/kotlin/com/sanha/localyum/controller/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/local-yum-api/src/main/kotlin/com/sanha/localyum/controller/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/UserAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/UserAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/storage/db-core/src/main/kotlin/com/sanha/localyum/UserEntity.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2blI6kC5R9chBwREf6BOd7ZQZRj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "15",
+    "RequestMappingsPanelWidth1": "15",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wrhk0mhgdx/SideProj/local-yum/build.gradle.kts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local-yum-api/src/main/kotlin/com/sanha/localyum" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.sanha.localyum.controller" />
+      <recent name="com.sanha.localyum" />
+      <recent name="com.sanha.localyum.restaurant.application" />
+      <recent name="com.sanha.localyum.user.application.service" />
+      <recent name="com.sanha.localyum.restaurant.domain" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sanha.localyum.restaurant.application.port.out" />
+      <recent name="com.sanha.localyum.restaurant.application.port.in" />
+      <recent name="com.sanha.localyum.restaurant.application.service" />
+      <recent name="com.sanha.localyum.restaurant.application.port" />
+      <recent name="com.sanha.localyum.restaurant.application.domain" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sanha.localyum.user.application.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LocalYumApplication">
+    <configuration name="local-yum [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LocalYumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="local-yum.local-yum-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sanha.localyum.LocalYumApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.local-yum [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/support/monitoring/build.gradle.kts" />
+      </set>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d6b83ad-c7ae-414b-a367-4642fdd51cc1" name="Changes" comment="" />
+      <created>1706783065790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706783065790</updated>
+      <workItem from="1706783066818" duration="25558000" />
+      <workItem from="1707091965363" duration="3177000" />
+      <workItem from="1707212892377" duration="3582000" />
+      <workItem from="1707663855734" duration="4301000" />
+      <workItem from="1707822947276" duration="2597000" />
+      <workItem from="1707920525146" duration="1628000" />
+      <workItem from="1708045724672" duration="1627000" />
+      <workItem from="1708095024538" duration="17879000" />
+      <workItem from="1708315312121" duration="16980000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1707065772189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707065772189</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: kotest 의존성 추가">
+      <option name="closed" value="true" />
+      <created>1708315472143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708315472143</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: fixture monkey 설정">
+      <option name="closed" value="true" />
+      <created>1708315483550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708315483550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <MESSAGE value="feat: kotest 의존성 추가" />
+    <MESSAGE value="feat: fixture monkey 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fixture monkey 설정" />
+  </component>
+</project>

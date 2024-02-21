@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/local-yum.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/local-yum.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/local-yum.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/local-yum.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/local-yum-api/local-yum.local-yum-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/local-yum-api/local-yum.local-yum-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storage/db-core/local-yum.storage.db-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/storage/db-core/local-yum.storage.db-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/support/logging/local-yum.support.logging.main.iml" filepath="$PROJECT_DIR$/.idea/modules/support/logging/local-yum.support.logging.main.iml" />
+    </modules>
+  </component>
+</project>
