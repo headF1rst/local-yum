@@ -40,9 +40,9 @@ subprojects {
 
         testImplementation("org.springframework.boot:spring-boot-starter-test")
         testImplementation("com.ninja-squad:springmockk:${property("springMockkVersion")}")
-        testImplementation("io.kotest:kotest-runner-junit5")
-        testImplementation("io.kotest:kotest-assertions-core")
-        testImplementation("io.mockk:mockk:1.12.0")
+        testImplementation("io.kotest:kotest-runner-junit5:${property("kotestVersion")}")
+        testImplementation("io.kotest:kotest-assertions-core:${property("kotestVersion")}")
+        testImplementation("io.mockk:mockk:${property("mockk")}")
 
         // fixture monkey
         testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter:0.6.3")
