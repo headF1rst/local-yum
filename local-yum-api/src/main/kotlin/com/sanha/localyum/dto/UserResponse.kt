@@ -1,4 +1,4 @@
-package com.sanha.localyum.controller
+package com.sanha.localyum.dto
 
 import com.sanha.localyum.user.domain.User
 import java.util.UUID

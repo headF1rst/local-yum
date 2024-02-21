@@ -1,8 +1,8 @@
 package com.sanha.localyum.controller
 
+import com.sanha.localyum.dto.UserResponse
 import com.sanha.localyum.support.response.ApiResponse
 import com.sanha.localyum.user.application.port.`in`.UserUseCase
-import com.sanha.localyum.user.application.service.UserService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RestController
