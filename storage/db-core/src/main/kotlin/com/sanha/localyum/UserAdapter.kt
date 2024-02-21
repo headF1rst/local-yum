@@ -1,6 +1,6 @@
 package com.sanha.localyum
 
-import com.sanha.localyum.user.application.port.UserPort
+import com.sanha.localyum.user.application.port.out.UserPort
 import com.sanha.localyum.user.domain.User
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Repository
@@ -14,6 +14,7 @@ internal class UserAdapter(
         return userJpaRepository.findByIdOrNull(id)?.let {
             User(
                 id = it.id!!,
+                name = it.name,
             )
         }
     }
