@@ -1,8 +1,0 @@
-[90m/Users/wrhk0mhgdx/SideProj/local-yum/domain/src/main/kotlin/com/sanha/localyum/user/application/service/[0mUserService.kt[90m:[0m12[90m:1:[0m Class body should not start with blank line [90m(standard:no-empty-first-line-in-class-body)[0m
-[90m/Users/wrhk0mhgdx/SideProj/local-yum/domain/src/main/kotlin/com/sanha/localyum/user/domain/[0mUser.kt[90m:[0m3[90m:1:[0m Wildcard import [90m(standard:no-wildcard-imports)[0m
-[90m/Users/wrhk0mhgdx/SideProj/local-yum/domain/src/main/kotlin/com/sanha/localyum/user/domain/[0mUser.kt[90m:[0m5[90m:11:[0m Unexpected spacing before "(" [90m(standard:paren-spacing)[0m
-
-Summary error count (descending) by rule:
-  standard:no-empty-first-line-in-class-body: 1
-  standard:no-wildcard-imports: 1
-  standard:paren-spacing: 1
