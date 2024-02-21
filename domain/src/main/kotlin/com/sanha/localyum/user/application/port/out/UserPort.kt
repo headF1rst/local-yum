@@ -1,4 +1,4 @@
-package com.sanha.localyum.user.application.port
+package com.sanha.localyum.user.application.port.out
 
 import com.sanha.localyum.user.domain.User
 import java.util.UUID

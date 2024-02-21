@@ -1,6 +1,6 @@
-package com.sanha.localyum.user
+package com.sanha.localyum.user.application.service
 
-import com.sanha.localyum.user.application.port.UserPort
+import com.sanha.localyum.user.application.port.out.UserPort
 import com.sanha.localyum.user.domain.User
 import org.springframework.stereotype.Component
 import java.util.NoSuchElementException

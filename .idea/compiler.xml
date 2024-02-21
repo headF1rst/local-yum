@@ -7,11 +7,10 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.2.2/cdf33f985035494cb3ea6f9e5d6589ba9fb58e91/spring-boot-configuration-processor-3.2.2.jar" />
         </processorPath>
+        <module name="local-yum.domain.main" />
         <module name="local-yum.support.logging.main" />
-        <module name="local-yum.core.main" />
         <module name="local-yum.storage.db-core.main" />
-        <module name="local-yum.core.core-enum.main" />
-        <module name="local-yum.core.core-api.main" />
+        <module name="local-yum.local-yum-api.main" />
         <module name="local-yum.storage.main" />
         <module name="local-yum.support.monitoring.main" />
         <module name="local-yum.support.main" />
